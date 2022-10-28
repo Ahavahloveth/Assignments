@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    display: block;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container  h2 {
+    font-family: "Big Shoulders Display";
+    color: hsl(0, 0%, 95%);
+    font-weight: 700px;
+    font-size: 25px;
+    margin: 30px 0;
+}
+ 
+.container p {
+    font-family: "Lexend Deca";
+    color: hsl(0, 0%,100%, 0.75);
+    font-size: 19px;
+}
+.first-content {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 80%;
+}
+
+.second-content {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 80%;
+}
+
+.third-content {
+    background-color: hsl(179, 100%,13%);
+    padding: 2em;
+    width: 80%;
+}
+
+.btn-grid:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn-grid {
+    margin: 5rem auto 5rem auto;
+}
+
+.btn {
+    height: 50px;
+    border: solid 3px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 60px;
+    background-color: hsl{0, 0%, 95%};
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: solid 3px hsl(0, 0%, 95%);
+}
