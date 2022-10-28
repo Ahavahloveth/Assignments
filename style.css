@@ -1,0 +1,40 @@
+
+* {
+  margin: 0;
+  padding: 2px;
+  background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 30%;
+    margin-bottom: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+#copy {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    height: 100vh;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}
